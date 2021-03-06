@@ -2,6 +2,8 @@
 
 another tor relay container but this one use github actions to build on 3 archs (amd64, arm/v7, and arm64). 
 
+set to rebuild every week to stay up to date
+
 ```yaml
 version: "3"
 services:
