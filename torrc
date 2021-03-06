@@ -11,7 +11,7 @@ SocksPort 0.0.0.0:9050
 ORPort 9001
 
 ## A handle for your relay, so people don't have to refer to it by key.
-Nickname mell-gibson-mustach
+Nickname MegaChud
 
 ## Define these to limit how much relayed traffic you will allow. Your
 ## own traffic is still unthrottled. Note that RelayBandwidthRate must
