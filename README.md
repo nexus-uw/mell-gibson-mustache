@@ -1,4 +1,19 @@
 # mell-gibson-mustache
 
+another tor relay container but this one use github actions to build on 3 archs (amd64, arm/v7, and arm64). 
 
-t
+```yaml
+version: "3"
+services:
+ relay:
+    image: nexusuw/mell-gibson-mustache
+    restart: always
+    ports:
+      - 9001:9001
+      - 9030:9030
+    volumes:
+ #    - "./torrc:/etc/tor/torrc" # to override the default config
+      - "tor-data:/var/lib/tor:Z"  # to preserve data 
+volumes:
+  tor-data:
+```
