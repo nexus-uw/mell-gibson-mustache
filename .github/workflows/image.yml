@@ -3,6 +3,9 @@ name: multi arch build
 on:
   push:
     branches: master
+  # rebuild every week to pick up any updates
+  schedule:
+  - cron: "0 2 * * 7" 
 
 jobs:
   build:
