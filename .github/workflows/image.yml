@@ -5,7 +5,7 @@ on:
     branches: master
   # rebuild every week to pick up any updates
   schedule:
-  - cron: "0 2 * * 7" 
+     - cron: '0 10 1 * *' # everyday at 10am
 
 jobs:
   build:
