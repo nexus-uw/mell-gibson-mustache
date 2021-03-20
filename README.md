@@ -1,8 +1,11 @@
 # mell-gibson-mustache
 
-another tor relay container but this one use github actions to build on 3 archs (amd64, arm/v7, and arm64). 
+another tor container but this one use github actions to build on 3 archs (amd64, arm/v6, arm/v7, and arm64). 
 
 set to rebuild every week to stay up to date
+
+
+great for use as a relay or proxy
 
 ```yaml
 version: "3"
