@@ -1,6 +1,6 @@
 #influenced by https://blog.jessfraz.com/post/running-a-tor-relay-with-docker/
 
-FROM --platform=$TARGETPLATFORM alpine:3.12
+FROM --platform=$TARGETPLATFORM alpine:3.15
 
 # Note: Tor is only in testing repo
 RUN apk update && apk add \
