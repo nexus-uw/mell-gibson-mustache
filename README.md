@@ -22,8 +22,3 @@ services:
 volumes:
   tor-data:
 ```
-
-
-
-
-
