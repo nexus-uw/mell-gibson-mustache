@@ -24,5 +24,5 @@ jobs:
       - name: build the image
         run: |
           docker buildx build \
-          --tag nexusuw/mell-gibson-mustache:latest --tage nexusuw/mell-gibson-mustache:$(date -u +'%Y-%m-%dT%H:%M:%SZ') --push  \
+          --tag nexusuw/mell-gibson-mustache:latest --tag nexusuw/mell-gibson-mustache:$(date -u +'%Y-%m-%dT%H:%M:%SZ') --push  \
           --platform linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64 .
