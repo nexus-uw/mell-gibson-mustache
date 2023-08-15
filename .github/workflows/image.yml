@@ -4,8 +4,8 @@ on:
   push:
     branches: master
   # rebuild every week to pick up any updates
-  schedule:
-     - cron: '0 10 1 * *' # 1st of month at 10am
+  #schedule:
+  #   - cron: '0 10 1 * *' # 1st of month at 10am
 
 jobs:
   build:
